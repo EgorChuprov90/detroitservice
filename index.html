@@ -104,13 +104,13 @@
          <div class="popup__body">
             <div class="popup__content">
                 <a href="#" class="close">X</a>
-                <form action="" class="popup__form">
+                <form action="#" method="post" enctype="multipart/form-data" class="popup__form">
                     <div class="popup__title">Обратный звонок</div>
                     Ваше имя
-                    <input type="text">
+                    <input type="text" name="username" value=""/>
                     Ваш номер
-                    <input type="tel">
-                    <input class="popup__btn" type="submit">
+                    <input type="tel" name="telephone" />
+                    <button class="popup__btn" type="submit">Отправить</button>
                 </form>
             </div>
         </div>

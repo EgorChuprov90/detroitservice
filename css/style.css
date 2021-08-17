@@ -350,8 +350,13 @@ color: #ffffff;
 font-weight: 800;
 font-size: 24px;
 text-indent: 21px;
+text-transform: capitalize;
 }
 .popup__btn{
+color: #ffffff;
+font-weight: 500;
+font-size: 24px;
 border-radius: 25px;
 height: 59px;
+background-color: #FF1C0E;
 }
