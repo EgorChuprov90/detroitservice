@@ -1,0 +1,274 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+html,body{
+height: 100%;
+min-height: 1920px;
+font-size: 30px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 800;
+background-color: #000000;
+color: #ffffff;
+}
+
+.container{
+width: 1920px;
+height: 100%;
+margin: 0 auto;
+padding: 0 165px;
+}
+
+.vse{
+min-height: 100%;
+display: flex;
+flex-direction: column;
+overflow: hidden;
+}
+.hi{
+background: url("../image/fon1.jpg") center no-repeat;
+-webkit-background-size: cover;
+background-size: cover;
+background-position: bottom;
+width: 100%;
+height: 100vh;
+}
+.header{
+color: #fff;
+padding: 24px 0 156px 0;
+text-align: center;
+}
+.header__flex{
+display: flex;
+align-items: center;
+}
+.header__logo{
+width: 105px;
+height: 105px;
+}
+.header__text{
+text-align: center;
+line-height: 36.7px;
+padding-left: 35px;
+}
+.ht{
+font-weight: 500;
+}
+.content{
+flex:  1 1 auto;
+}
+.hi__flex{
+display: flex;
+flex-direction: column;
+}
+.hi__text{
+width: 768px;
+line-height: 66px;
+text-align: center;
+color: #fff;
+height: 331px;
+padding: 0 0 30px 0;
+margin: 0 0 30px 0;
+font-size: 48px;
+}
+p{
+text-align: left;
+}
+.hi__btn{
+text-transform: uppercase;
+text-align: center;
+background-color: #ff1c0e;
+width: 375px;
+height: 57px;
+line-height: 57px;
+border-radius: 30px;
+color: #fff;
+font-weight: 500;
+font-size: 24px;
+transition: all .5s ease 0s;
+}
+.hi__btn:hover{
+opacity: 0.5;
+}
+.service {
+width: 100%;
+height: 840px;
+}
+.service__flex {
+display: flex;
+flex-direction: column;
+height: 100%;
+max-height: 840px;
+padding-bottom: 28px;
+}
+h2{
+font-weight: 800;
+font-size: 48px;
+}
+.service__line {
+display: flex;
+flex: 1 1 auto;
+}
+.service__icon {
+width: 100%;
+max-width: 1920px;
+margin: 0 auto;
+text-align: center;
+}
+.icon__1{
+background: url("../image/1.svg") center no-repeat;
+}
+.icon__2{
+background: url("../image/2.svg") center no-repeat;
+}
+.icon__3{
+background: url("../image/3.svg") center no-repeat;
+}
+.icon__4{
+background: url("../image/4.svg") center no-repeat;
+}
+.icon__5{
+background: url("../image/5.svg") center no-repeat;
+}
+.icon__6{
+background: url("../image/6.svg") center no-repeat;
+}
+.icon__7{
+background: url("../image/7.svg") center no-repeat;
+}
+.icon__8{
+background: url("../image/8.svg") center no-repeat;
+}
+.icon__9{
+background: url("../image/9.svg") center no-repeat;
+}
+.icon{
+background: url("../image/BackIcon2.svg") center no-repeat;
+opacity: 0;
+width: 100%;
+height: 100%;
+display:flex;
+justify-content:center;
+align-items:center;
+color: #000;
+transition: all 1s ease 0s;
+}
+.picon{
+line-height: 24,38px;
+font-weight: 500;
+font-size: 20px;
+text-align: center;
+max-width: 382px;
+}
+.icon:hover{
+opacity: 1;
+}
+.contacts{
+background: url("../image/fon2.jpg") center no-repeat;
+-webkit-background-size: cover;
+background-size: cover;
+background-position: top;
+width: 100%;
+height: 840px;
+}
+.contacts__title{
+padding-top: 50px;
+}
+.contacts__flex{
+padding-top: 50px;
+display: flex;
+justify-content: space-between;
+align-items:center;
+}
+.contacts__text{
+flex: 1 1 auto;
+text-align: left;
+}
+.contacts__address {
+background: url("../image/Location.svg") left no-repeat;
+padding-left: 40px;
+}
+.cotacts__time {
+padding: 50px 0 45px 0;
+font-weight: 500;
+font-size: 24px;
+line-height: 33px;
+}
+.contacts__number {
+background: url("../image/TelePhone.svg") left no-repeat;
+padding-left: 40px;
+}
+.map{
+}
+.footer{
+background-color: #ffffff;
+color: #FF1C0E;
+font-weight: 500;
+}
+.footer__flex {
+display: flex;
+justify-content: space-between;
+padding: 28px 0;
+align-items: center;
+}
+.footer__media {
+display: flex;
+}
+.footer__icon{
+width: 40px;
+height: 40px;
+margin: 0 25px 0 0;
+}
+.footer__detroiit{
+font-size: 24px;
+}
+.footer__parrot {
+font-size: 14px;
+}
+.footer__devel{
+display: flex;
+align-items: center;
+}
+.footer__devel:visited{
+color: #FF1C0E;
+}
+.footer__name{
+margin: 0 0 0 -15px;
+}
+.p__name{
+text-align: right;
+font-weight: 800;
+}
