@@ -346,6 +346,9 @@ background-color: #FF1C0E;
 margin-bottom: 14px;
 border-radius: 0px 25px 25px 25px;
 height: 43px;
+color: #ffffff;
+font-weight: 800;
+font-size: 24px;
 }
 .popup__btn{
 border-radius: 25px;
