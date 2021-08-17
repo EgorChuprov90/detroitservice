@@ -14,8 +14,18 @@
 		<!-- Кодировка страницы -->
 		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
         <meta name="viewport" content="width=1920">
+            <title>Hide content until loaded with CSS</title>
+    <style type="text/css" media="screen">
+      .hide-single-child > :only-child {
+        display: none;
+      }
+    </style>
 	</head>
     <body>
+        <div class='hide-single-child'>
+        <script>
+            
+        </script>
         <div class="vse">
             <main class="content">
                 <div class="hi">
@@ -114,6 +124,7 @@
                 </form>
             </div>
         </div>
+    </div>
     </div>
     </body>
 </html>
