@@ -64,7 +64,7 @@ background: url("../image/fon1.jpg") center no-repeat;
 background-size: cover;
 background-position: bottom;
 width: 100%;
-height: 100vh;
+height: 1080px;
 }
 .header{
 color: #fff;
