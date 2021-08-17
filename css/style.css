@@ -269,6 +269,9 @@ color: #FF1C0E;
 .footer__name{
 margin: 0 0 0 -15px;
 }
+.footer__name:visited{
+color: #FF1C0E;
+}
 .p__name{
 text-align: right;
 font-weight: 800;
