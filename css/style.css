@@ -49,21 +49,6 @@ height: 100%;
 margin: 0 auto;
 padding: 0 30px;
 }
-@media(max-width: 1650px){
-.container{
-max-width: 1200px;
-}
-}
-@media(max-width: 1260px){
-.container{
-max-width: 970px;
-}
-}
-@media(max-width: 1030px){
-.container{
-max-width: 750px;
-}
-}
 @media(max-width: 768px){
 .container{
 max-width: none;
@@ -82,12 +67,11 @@ background-size: cover;
 background-position: bottom;
 width: 100%;
 height: 100vh;
-margin:0 0 15px 0;
 }
 .header{
 color: #fff;
 padding: 24px 0 0 0;
-margin: 0 0 165px 0;
+margin: 0 0 15.28vh 0;
 text-align: center;
 }
 .header__flex{
@@ -98,14 +82,14 @@ max-height: 105px;
 .header__logo{
 flex: 0 0 6.7%;
 max-width: 105px;
-min-width: 105px;
+min-width: 60px;
 }
 .header__text{
 flex: 0 1 93.3%;
 text-align: left;
 line-height:calc(27,7px + 9 * (100vw / 1650));
 margin-left: 2%;
-font-size: calc(18px + 12 * (100vw / 1650));
+font-size: calc(14px + 16 * (100vw / 1650));
 }
 .ht{
 font-weight: 500;
@@ -119,12 +103,12 @@ display: flex;
 flex-direction: column;
 }
 .hi__text{
-line-height: calc(22px + 44 * (100vw / 1650));
+line-height: calc(18px + 48 * (100vw / 1650));
 text-align: center;
 color: #fff;
-padding: 0 0 30px 0;
-margin: 0 0 30px 0;
-font-size: calc(14px + 34 * (100vw / 1650));
+margin: 0 0 5.56vh 0;
+font-size: calc(12px + 36 * (100vw / 1650));
+width: 82.2vw;
 max-width: 715px;
 }
 p{
@@ -136,11 +120,11 @@ text-align: center;
 background-color: #ff1c0e;
 max-width: 375px;
 max-height: 57px;
-line-height: 57px;
+line-height: calc(29px + 28 * (100vw / 1650));
 border-radius: 30px;
 color: #fff;
 font-weight: 500;
-font-size: 24px;
+font-size: calc(14px + 10 * (100vw / 1650));
 transition: all .5s ease 0s;
 }
 .hi__btn:hover{
@@ -148,7 +132,7 @@ opacity: 0.5;
 }
 .service {
 width: 100%;
-height: 80vh;
+height: 1040px;
 padding: 10px 0;
 }
 .service__title{
@@ -161,18 +145,20 @@ padding-bottom: 28px;
 }
 h2{
 font-weight: 800;
-font-size: 48px;
+font-size:calc(24px + 24 * (100vw / 1650));
 margin: 10px 0 0 0;
 }
 .service__line {
 display: flex;
-flex: 1 1 33.333%;
-min-height: 5px;
+flex: 0 0 33.333%;
+flex-wrap: wrap;
 }
 .service__icon {
 flex: 0 0 33.333%;
 margin: 0 auto;
 text-align: center;
+min-width: 191px;
+min-height: 109px;
 }
 .icon__1{
 background: url("../image/1.svg") center no-repeat;
@@ -215,7 +201,7 @@ transition: all 1s ease 0s;
 .picon{
 line-height: 24,38px;
 font-weight: 500;
-font-size: calc(18px + 2 * (100vw / 1650));
+font-size: calc(12px + 8 * (100vw / 1650));
 text-align: center;
 width: 75%;
 }
