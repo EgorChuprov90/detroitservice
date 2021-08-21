@@ -114,16 +114,21 @@
             <div class="popup__content">
                 <a href="#" class="close">X</a>
                 <form action="#" method="post" enctype="multipart/form-data" class="popup__form">
+                            <input type="hidden" name="project_name" value="DetroitService">
+                            <input type="hidden" name="admin_email" value="chuprov1999@gmail.com">
+                            <input type="hidden" name="form_subject" value="Заказ звонка">
                     <div class="popup__title">Обратный звонок</div>
                     <p class="popup__p">Ваше имя</p>
-                    <input type="text" name="username" value=""/>
+                    <input type="text" name="Имя" value="" required/>
                     <p class="popup__p">Ваш номер</p>
-                    <input type="tel" name="telephone" />
+                    <input type="tel" name="Телефон" required />
                     <button class="popup__btn" type="submit">Отправить</button>
                 </form>
             </div>
         </div>
     </div>
     </div>
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="script.js"></script>
     </body>
 </html>
