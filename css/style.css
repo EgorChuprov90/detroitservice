@@ -403,3 +403,4 @@ margin: 1.2vh 0 0 0;
 .popup__p{
 font-size: calc(16px + 8 * (100vw / 1650));
 }
+a[href^=tel] { color: inherit; }
