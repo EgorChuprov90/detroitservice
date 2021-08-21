@@ -123,9 +123,11 @@ font-size: calc(12px + 36 * (100vw / 1650));
 width: 82.2vw;
 max-width: 1000px;
 }
+.pht{
+white-space: nowrap;
+}
 p{
 text-align: left;
-white-space: nowrap;
 }
 .hi__btn{
 text-transform: uppercase;
