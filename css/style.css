@@ -36,6 +36,7 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 html,body{
+height: 100%;
 font-size: 30px;
 font-family: 'Montserrat', sans-serif;
 font-weight: 800;
@@ -75,7 +76,7 @@ max-width: none;
 }
 }
 .vse{
-min-height: 100%;
+min-height: 100vh;
 display: flex;
 flex-direction: column;
 overflow: hidden;
@@ -86,7 +87,8 @@ background: url("../image/fon1.jpg") center no-repeat;
 background-size: cover;
 background-position: bottom;
 width: 100%;
-height: 100vh;
+min-height: 100vh;
+max-height: 1080px;
 }
 .header{
 color: #fff;
