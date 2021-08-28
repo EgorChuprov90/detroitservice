@@ -129,7 +129,7 @@ line-height: calc(18px + 48 * (100vw / 1650));
 text-align: center;
 color: #fff;
 margin: 0 0 5.56vh 0;
-font-size: calc(12px + 36 * (100vw / 1650));
+font-size: calc(9px + 39 * (100vw / 1650));
 width: 82.2vw;
 max-width: 1000px;
 }
