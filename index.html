@@ -2,133 +2,188 @@
 <!DOCTYPE html>
 <!-- Оболочка документа, указываем язык содержимого -->
 <html lang="ru">
-	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
-	<head>
-		<!-- Заголовок страницы в браузере -->
-		<title>Автосервис</title>
-		<!-- Подключаем CSS -->
-		<link rel="stylesheet" href="css/style.css" />
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap" rel="stylesheet">
-		<!-- Кодировка страницы -->
-		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
-        <meta name="viewport" content="width=device-width">
-            <title>Hide content until loaded with CSS</title>
-    <style type="text/css" media="screen">
-      .hide-single-child > :only-child {
-        display: none;
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+
+<head>
+   <!-- Заголовок страницы в браузере -->
+   <title>Автосервис</title>
+   <!-- Подключаем CSS -->
+   <link rel="stylesheet" href="css/style.css" />
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap" rel="stylesheet">
+   <!-- Кодировка страницы -->
+   <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+   <meta name="viewport" content="width=device-width">
+   <title>Hide content until loaded with CSS</title>
+   <style type="text/css" media="screen">
+      .hide-single-child> :only-child {
+         display: none;
       }
-    </style>
-	</head>
-    <body>
-        <div class='hide-single-child'>
-        <script>
-        </script>
-        <div class="vse">
-            <main class="content">
-                <div class="hi">
-                            <header class="header">
-                <div class="container">
-                    <div class="header__flex">
+   </style>
+</head>
+
+<body>
+   <div class='hide-single-child'>
+      <script>
+      </script>
+      <div class="vse">
+         <main class="content">
+            <div class="hi">
+               <header class="header">
+                  <div class="container">
+                     <div class="header__flex">
                         <div class="header__logo"><img src="image/Logo.svg" alt=></div>
-                        <div class="header__text">DETROIT SERVICE  <span class="ht">Сервисный Центр </span></div>
-                    </div>
+                        <div class="header__text">DETROIT SERVICE <span class="ht">Сервисный Центр </span></div>
+                     </div>
+                  </div>
+               </header>
+               <div class="container">
+                  <div class="hi__flex">
+                     <div class="hi__text">
+                        <p class="pht">Предоставляем широкий</p>
+                        <p class="pht">спектр услуг</p>
+                        <p class="pht">По каждому направлению</p>
+                        <p class="pht"> работают отдельные</p>
+                        <p class="pht">специалисты</p>
+                     </div>
+                     <a href="#popup" class="hi__btn popup-link">Свяжись с нами</a>
+                  </div>
+               </div>
             </div>
-            </header>
-                <div class="container">
-                    <div class="hi__flex">
-                        <div class="hi__text"><p class="pht">Предоставляем широкий</p><p class="pht">спектр услуг</p> <p class="pht">По каждому направлению</p><p class="pht"> работают отдельные</p><p class="pht">специалисты</p></div>
-                        <a href="#popup" class="hi__btn">Свяжись с нами</a>
-            </div>
-        </div>
-    </div>
             <div class="service">
-                <div class="container">
-                    <div class="service__title"><h2>Наши услуги</h2></div>
-                    <div class="service__flex">
-                        <div class="service__line">
-                            <div class="service__icon icon__1" onclick=""><div class="icon"><p class="picon">Ремонт и обслуживание АКПП, МКПП ,CVT ,Power Shift , DSG , РКПП</p></div></div>
-                        <div class="service__icon icon__2" onclick=""><div class="icon"><p class="picon">Ремонт автомобилей (иномарок)</p></div></div>
-                        <div class="service__icon icon__3" onclick=""><div class="icon"><p class="picon">Запасные части для автомобилей</p></div></div>
+               <div class="container">
+                  <div class="service__title">
+                     <h2>Наши услуги</h2>
+                  </div>
+                  <div class="service__flex">
+                     <div class="service__line">
+                        <div class="service__icon icon__1" onclick="">
+                           <div class="icon">
+                              <p class="picon">Ремонт и обслуживание АКПП, МКПП ,CVT ,Power Shift , DSG , РКПП</p>
+                           </div>
                         </div>
-                        <div class="service__line">
-                            <div class="service__icon icon__4" onclick=""><div class="icon"><p class="picon">Профессиональная диагностика всех систем автомобиля</p></div></div>
-                            <div class="service__icon icon__5" onclick=""><div class="icon"><p class="picon">Регулировка развал-схождения</p></div></div>
-                            <div class="service__icon icon__6" onclick=""><div class="icon"><p class="picon">Кузовной ремонт</p></div></div>
+                        <div class="service__icon icon__2" onclick="">
+                           <div class="icon">
+                              <p class="picon">Ремонт автомобилей (иномарок)</p>
+                           </div>
                         </div>
-                        <div class="service__line">
-                            <div class="service__icon icon__7" onclick=""><div class="icon"><p class="picon">Техническое обслуживание</p></div></div>
-                            <div class="service__icon icon__8" onclick=""><div class="icon"><p class="picon">Покрасочные работы</p></div></div>
-                            <div class="service__icon icon__9" onclick=""><div class="icon"><p class="picon">Шиномонтаж</p></div></div>
+                        <div class="service__icon icon__3" onclick="">
+                           <div class="icon">
+                              <p class="picon">Запасные части для автомобилей</p>
+                           </div>
                         </div>
-                    </div>
-                </div>
+                     </div>
+                     <div class="service__line">
+                        <div class="service__icon icon__4" onclick="">
+                           <div class="icon">
+                              <p class="picon">Профессиональная диагностика всех систем автомобиля</p>
+                           </div>
+                        </div>
+                        <div class="service__icon icon__5" onclick="">
+                           <div class="icon">
+                              <p class="picon">Регулировка развал-схождения</p>
+                           </div>
+                        </div>
+                        <div class="service__icon icon__6" onclick="">
+                           <div class="icon">
+                              <p class="picon">Кузовной ремонт</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="service__line">
+                        <div class="service__icon icon__7" onclick="">
+                           <div class="icon">
+                              <p class="picon">Техническое обслуживание</p>
+                           </div>
+                        </div>
+                        <div class="service__icon icon__8" onclick="">
+                           <div class="icon">
+                              <p class="picon">Покрасочные работы</p>
+                           </div>
+                        </div>
+                        <div class="service__icon icon__9" onclick="">
+                           <div class="icon">
+                              <p class="picon">Шиномонтаж</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
             </div>
             <div class="contacts">
-                <div class="container">
-                  <div class="contacts__title"><h2>Контакты</h2></div>
-                    <div class="contacts__flex">
-                        <div class="contacts__text">
-                            <div class="contacts__address">Вокзальная 1/1</div>
-                            <ul class="cotacts__time">
-                                <li>Пн 9:00 - 19:00</li>
-                                <li>Вт 9:00 - 19:00</li>
-                                <li>Ср 9:00 - 19:00</li>
-                                <li>Чт 9:00 - 19:00</li>
-                                <li>Пт 9:00 - 19:00</li>
-                                <li>Сб 10:00 - 18:00</li>
-                                <li>Вс 10:00 - 18:00</li>
-                            </ul>
-                            <div class="contacts__number">+7 (3519) 45-80-30</div>
-                        </div>
-                        <div class="map"><iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad5e30ade80e82143cdf98462c4c5a0088d9d07d9dfb1532520f8fbbb2a6de8be&amp;source=constructor" width="100%" height="100%" frameborder="0" style="border-radius: 25px;"></iframe>
-                    </div>
-                    </div>
-                </div>
+               <div class="container">
+                  <div class="contacts__title">
+                     <h2>Контакты</h2>
+                  </div>
+                  <div class="contacts__flex">
+                     <div class="contacts__text">
+                        <div class="contacts__address">Вокзальная 1/1</div>
+                        <ul class="cotacts__time">
+                           <li>Пн 9:00 - 19:00</li>
+                           <li>Вт 9:00 - 19:00</li>
+                           <li>Ср 9:00 - 19:00</li>
+                           <li>Чт 9:00 - 19:00</li>
+                           <li>Пт 9:00 - 19:00</li>
+                           <li>Сб 10:00 - 18:00</li>
+                           <li>Вс 10:00 - 18:00</li>
+                        </ul>
+                        <div class="contacts__number">+7 (3519) 45-80-30</div>
+                     </div>
+                     <div class="map"><iframe
+                           src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad5e30ade80e82143cdf98462c4c5a0088d9d07d9dfb1532520f8fbbb2a6de8be&amp;source=constructor"
+                           width="100%" height="100%" frameborder="0" style="border-radius: 25px;"></iframe>
+                     </div>
+                  </div>
+               </div>
             </div>
-                        </main>
-            <footer class="footer">
-                <div class="container">
-                    <div class="footer__flex">
-                        <div class="footer__media">
-                            <a href="https://vk.com/detroitmgn" class="footer__icon"><img src="image/vk.svg" alt=></a>
-                            <a href="https://www.instagram.com/detroit_service_mgn/" class="footer__icon"><img src="image/instagram.svg" alt=></a>
-                            <a href="https://wa.me/79128058030" class="footer__icon"><img src="image/whatsapp.svg" alt=></a>
-                            <a href="https://viber.click/79128058030" class="footer__icon"><img src="image/viber.svg" alt=></a>
+         </main>
+         <footer class="footer">
+            <div class="container">
+               <div class="footer__flex">
+                  <div class="footer__media">
+                     <a href="https://vk.com/detroitmgn" class="footer__icon"><img src="image/vk.svg" alt=></a>
+                     <a href="https://www.instagram.com/detroit_service_mgn/" class="footer__icon"><img
+                           src="image/instagram.svg" alt=></a>
+                     <a href="https://wa.me/79128058030" class="footer__icon"><img src="image/whatsapp.svg" alt=></a>
+                     <a href="https://viber.click/79128058030" class="footer__icon"><img src="image/viber.svg" alt=></a>
+                  </div>
+                  <div class="footer__detroiit">DETROIT SERVICE, 2021</div>
+                  <div class="footer__parrot">
+                     <a href="https://www.instagram.com/parrotnet.ru/" class="footer__devel">
+                        <div class="footer__icon"><img src="image/phoenix3.svg" alt=></div>
+                        <div class="footer__name">
+                           <p class="p__made">Site made by</p>
+                           <p class="p__name">ParrotNet</p>
                         </div>
-                        <div class="footer__detroiit">DETROIT SERVICE, 2021</div>
-                        <div class="footer__parrot">
-                            <a href="https://www.instagram.com/parrotnet.ru/" class="footer__devel">
-                                <div class="footer__icon"><img src="image/phoenix3.svg" alt=></div>
-                                <div class="footer__name"><p class="p__made">Site made by</p> <p class="p__name">ParrotNet</p></div>
-                            </a>
-                        </div>
-                    </div>
+                     </a>
+                  </div>
+               </div>
             </div>
-            </footer>
-        </div>
-        <div id="popup" class="popup">
-            <a href="#" class="popup__area"></a>
+         </footer>
+      </div>
+      <div id="popup" class="popup">
          <div class="popup__body">
             <div class="popup__content">
-                <a href="#" class="close">X</a>
-                <form action="#" method="post" enctype="multipart/form-data" class="popup__form">
-                            <input type="hidden" name="project_name" value="DetroitService">
-                            <input type="hidden" name="admin_email" value="chuprov1999@gmail.com">
-                            <input type="hidden" name="form_subject" value="Заказ звонка">
-                    <div class="popup__title">Обратный звонок</div>
-                    <p class="popup__p">Ваше имя</p>
-                    <input type="text" name="Имя" value="" required/>
-                    <p class="popup__p">Ваш номер</p>
-                    <input type="tel" name="Телефон" required />
-                    <button class="popup__btn" type="submit">Отправить</button>
-                </form>
+               <a href="#" class="popup__close close-popup">X</a>
+               <form action="#" method="post" enctype="multipart/form-data" class="popup__form">
+                  <input type="hidden" name="project_name" value="DetroitService">
+                  <input type="hidden" name="admin_email" value="chuprov1999@gmail.com">
+                  <input type="hidden" name="form_subject" value="Заказ звонка">
+                  <div class="popup__title">Обратный звонок</div>
+                  <p class="popup__p">Ваше имя</p>
+                  <input type="text" name="Имя" value="" required />
+                  <p class="popup__p">Ваш номер</p>
+                  <input type="tel" name="Телефон" required />
+                  <button class="popup__btn" type="submit">Отправить</button>
+               </form>
             </div>
-        </div>
-    </div>
-    </div>
-        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="js/script.js"></script>
-    </body>
+         </div>
+      </div>
+   </div>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <script src="js/script.js"></script>
+   <script src="js/popups.js"></script>
+</body>
+
 </html>
